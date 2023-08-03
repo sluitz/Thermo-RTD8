@@ -1,0 +1,8 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "thermo-rescue")(type "Legacy")(uri "//dc2/electrical/KiCAD/nEXO_Thermometry/pcb/thermo-rescue.lib")(options "")(descr "")(disabled))
+  (lib (name "thermo_max31856")(type "Legacy")(uri "//dc2/electrical/KiCAD/nEXO_Thermometry/pcb/thermo_max31856.lib")(options "")(descr "")(disabled))
+  (lib (name "thermo_bme280")(type "Legacy")(uri "//dc2/electrical/KiCAD/nEXO_Thermometry/pcb/thermo_bme280.lib")(options "")(descr "")(disabled))
+  (lib (name "teensy")(type "KiCad")(uri "${KIPRJMOD}/Teensy41/teensy.kicad_sym")(options "")(descr ""))
+  (lib (name "MeanWell-DC-DC")(type "KiCad")(uri "${KIPRJMOD}/MeanWell-DC-DC/MeanWell-DC-DC.kicad_sym")(options "")(descr ""))
+)

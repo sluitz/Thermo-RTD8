@@ -1,0 +1,91 @@
+11-05 13:56:28 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 303:Plugin executed on: 'win32'
+11-05 13:56:28 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 304:Plugin executed with python version: '3.9.14 (main, Sep 19 2022, 05:11:57) [MSC v.1932 64 bit (AMD64)]'
+11-05 13:56:28 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 305:KiCad build version: (6.0.9)
+11-05 13:56:28 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 306:Plugin version: 1.2.1
+11-05 13:56:28 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 307:Frame repr: <wx._core.Frame object at 0x0000029F05D1D5E0>
+11-05 13:56:28 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 331:Preparing replicator with J11 as a reference
+11-05 13:56:28 com_github_MitjaNemec_ReplicateLayout.replicate_layout 106:getting a list of all footprints on board
+11-05 13:56:28 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 359:source anchor footprint is 'J11'
+Located on: ['RTD-Channel1']
+With filenames: ['RTD-Channel.kicad_sch']
+With sheet_id:['RTD-Channel1']
+11-05 13:56:28 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 366:Corresponding footprints are 
+[('J81', ['RTD-Channel8']), ('J71', ['RTD-Channel7']), ('J61', ['RTD-Channel6']), ('J51', ['RTD-Channel5']), ('J41', ['RTD-Channel4']), ('J31', ['RTD-Channel3']), ('J21', ['RTD-Channel2']), ('J11', ['RTD-Channel1'])]
+11-05 13:56:28 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 378:Showing dialog
+11-05 13:56:28 com_github_MitjaNemec_ReplicateLayout.replicate_layout 344:constructing a list of sheets suitable for replication on level:'RTD-Channel1', file:'RTD-Channel.kicad_sch'
+11-05 13:56:28 com_github_MitjaNemec_ReplicateLayout.replicate_layout 381:suitable sheets are:[['RTD-Channel2'], ['RTD-Channel3'], ['RTD-Channel4'], ['RTD-Channel5'], ['RTD-Channel6'], ['RTD-Channel7'], ['RTD-Channel8']]
+11-05 13:56:28 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1112:Level selected: ['RTD-Channel1']
+11-05 13:56:28 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 384:Toolbar position: wx.Point(3470, 531)
+11-05 13:56:28 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 390:Dialog position: wx.Point(3106, 531)
+11-05 13:57:15 com_github_MitjaNemec_ReplicateLayout.replicate_layout 344:constructing a list of sheets suitable for replication on level:'RTD-Channel1', file:'RTD-Channel.kicad_sch'
+11-05 13:57:15 com_github_MitjaNemec_ReplicateLayout.replicate_layout 381:suitable sheets are:[['RTD-Channel2'], ['RTD-Channel3'], ['RTD-Channel4'], ['RTD-Channel5'], ['RTD-Channel6'], ['RTD-Channel7'], ['RTD-Channel8']]
+11-05 13:57:15 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 157:Replicating layout
+11-05 13:57:15 com_github_MitjaNemec_ReplicateLayout.replicate_layout 154:Starting replication of sheets: [['RTD-Channel2'], ['RTD-Channel3'], ['RTD-Channel4'], ['RTD-Channel5'], ['RTD-Channel6'], ['RTD-Channel7'], ['RTD-Channel8']]
+on level: ['RTD-Channel1']
+with tracks=True, zone=True, text=True, text=True, containing=True, remove=False, locked footprints=False, by_group=False
+11-05 13:57:15 root 243:updating GUI message: 'Preparing for replication'
+11-05 13:57:15 root 248:updating GUI with: 0
+11-05 13:57:15 com_github_MitjaNemec_ReplicateLayout.replicate_layout 224:Getting the list of source footprints
+11-05 13:57:15 com_github_MitjaNemec_ReplicateLayout.replicate_layout 239:Getting the list of all the remaining footprints
+11-05 13:57:15 com_github_MitjaNemec_ReplicateLayout.replicate_layout 244:Getting nets local to source footprints
+11-05 13:57:15 com_github_MitjaNemec_ReplicateLayout.replicate_layout 247:Getting source bounding box
+11-05 13:57:15 root 248:updating GUI with: 37
+11-05 13:57:15 com_github_MitjaNemec_ReplicateLayout.replicate_layout 251:Getting source tracks
+11-05 13:57:15 com_github_MitjaNemec_ReplicateLayout.replicate_layout 266:Getting source zones
+11-05 13:57:15 com_github_MitjaNemec_ReplicateLayout.replicate_layout 275:Getting source text items
+11-05 13:57:15 com_github_MitjaNemec_ReplicateLayout.replicate_layout 284:Getting source drawing items
+11-05 13:57:15 root 248:updating GUI with: 87
+11-05 13:57:15 root 243:updating GUI message: 'Replicating footprints'
+11-05 13:57:15 com_github_MitjaNemec_ReplicateLayout.replicate_layout 678:Replicating footprints
+11-05 13:57:15 com_github_MitjaNemec_ReplicateLayout.replicate_layout 684:Replicating footprints on sheet ['RTD-Channel2']
+11-05 13:57:15 root 248:updating GUI with: 10
+11-05 13:57:15 com_github_MitjaNemec_ReplicateLayout.replicate_layout 684:Replicating footprints on sheet ['RTD-Channel3']
+11-05 13:57:15 com_github_MitjaNemec_ReplicateLayout.replicate_layout 684:Replicating footprints on sheet ['RTD-Channel4']
+11-05 13:57:15 com_github_MitjaNemec_ReplicateLayout.replicate_layout 684:Replicating footprints on sheet ['RTD-Channel5']
+11-05 13:57:15 root 248:updating GUI with: 45
+11-05 13:57:15 com_github_MitjaNemec_ReplicateLayout.replicate_layout 684:Replicating footprints on sheet ['RTD-Channel6']
+11-05 13:57:15 com_github_MitjaNemec_ReplicateLayout.replicate_layout 684:Replicating footprints on sheet ['RTD-Channel7']
+11-05 13:57:15 root 248:updating GUI with: 85
+11-05 13:57:15 com_github_MitjaNemec_ReplicateLayout.replicate_layout 684:Replicating footprints on sheet ['RTD-Channel8']
+11-05 13:57:15 root 243:updating GUI message: 'Replicating tracks'
+11-05 13:57:15 com_github_MitjaNemec_ReplicateLayout.replicate_layout 844:Replicating tracks
+11-05 13:57:15 com_github_MitjaNemec_ReplicateLayout.replicate_layout 850:Replicating tracks on sheet ['RTD-Channel2']
+11-05 13:57:15 com_github_MitjaNemec_ReplicateLayout.replicate_layout 850:Replicating tracks on sheet ['RTD-Channel3']
+11-05 13:57:15 root 248:updating GUI with: 14
+11-05 13:57:15 com_github_MitjaNemec_ReplicateLayout.replicate_layout 850:Replicating tracks on sheet ['RTD-Channel4']
+11-05 13:57:15 com_github_MitjaNemec_ReplicateLayout.replicate_layout 850:Replicating tracks on sheet ['RTD-Channel5']
+11-05 13:57:15 com_github_MitjaNemec_ReplicateLayout.replicate_layout 850:Replicating tracks on sheet ['RTD-Channel6']
+11-05 13:57:15 root 248:updating GUI with: 57
+11-05 13:57:15 com_github_MitjaNemec_ReplicateLayout.replicate_layout 850:Replicating tracks on sheet ['RTD-Channel7']
+11-05 13:57:15 com_github_MitjaNemec_ReplicateLayout.replicate_layout 850:Replicating tracks on sheet ['RTD-Channel8']
+11-05 13:57:15 root 243:updating GUI message: 'Replicating zones'
+11-05 13:57:15 com_github_MitjaNemec_ReplicateLayout.replicate_layout 909:Replicating zones
+11-05 13:57:15 com_github_MitjaNemec_ReplicateLayout.replicate_layout 916:Replicating zones on sheet ['RTD-Channel2']
+11-05 13:57:15 root 248:updating GUI with: 14
+11-05 13:57:15 com_github_MitjaNemec_ReplicateLayout.replicate_layout 916:Replicating zones on sheet ['RTD-Channel3']
+11-05 13:57:15 com_github_MitjaNemec_ReplicateLayout.replicate_layout 916:Replicating zones on sheet ['RTD-Channel4']
+11-05 13:57:15 com_github_MitjaNemec_ReplicateLayout.replicate_layout 916:Replicating zones on sheet ['RTD-Channel5']
+11-05 13:57:15 com_github_MitjaNemec_ReplicateLayout.replicate_layout 916:Replicating zones on sheet ['RTD-Channel6']
+11-05 13:57:15 com_github_MitjaNemec_ReplicateLayout.replicate_layout 916:Replicating zones on sheet ['RTD-Channel7']
+11-05 13:57:15 root 248:updating GUI with: 85
+11-05 13:57:15 com_github_MitjaNemec_ReplicateLayout.replicate_layout 916:Replicating zones on sheet ['RTD-Channel8']
+11-05 13:57:15 root 243:updating GUI message: 'Replicating text'
+11-05 13:57:15 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Replicating text
+11-05 13:57:15 com_github_MitjaNemec_ReplicateLayout.replicate_layout 992:Replicating text on sheet ['RTD-Channel2']
+11-05 13:57:15 com_github_MitjaNemec_ReplicateLayout.replicate_layout 992:Replicating text on sheet ['RTD-Channel3']
+11-05 13:57:15 com_github_MitjaNemec_ReplicateLayout.replicate_layout 992:Replicating text on sheet ['RTD-Channel4']
+11-05 13:57:15 com_github_MitjaNemec_ReplicateLayout.replicate_layout 992:Replicating text on sheet ['RTD-Channel5']
+11-05 13:57:15 com_github_MitjaNemec_ReplicateLayout.replicate_layout 992:Replicating text on sheet ['RTD-Channel6']
+11-05 13:57:15 com_github_MitjaNemec_ReplicateLayout.replicate_layout 992:Replicating text on sheet ['RTD-Channel7']
+11-05 13:57:15 com_github_MitjaNemec_ReplicateLayout.replicate_layout 992:Replicating text on sheet ['RTD-Channel8']
+11-05 13:57:15 root 243:updating GUI message: 'Replicating drawings'
+11-05 13:57:15 root 248:updating GUI with: 0
+11-05 13:57:15 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1032:Replicating drawings
+11-05 13:57:15 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1038:Replicating drawings on sheet ['RTD-Channel2']
+11-05 13:57:15 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1038:Replicating drawings on sheet ['RTD-Channel3']
+11-05 13:57:15 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1038:Replicating drawings on sheet ['RTD-Channel4']
+11-05 13:57:15 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1038:Replicating drawings on sheet ['RTD-Channel5']
+11-05 13:57:15 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1038:Replicating drawings on sheet ['RTD-Channel6']
+11-05 13:57:15 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1038:Replicating drawings on sheet ['RTD-Channel7']
+11-05 13:57:15 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1038:Replicating drawings on sheet ['RTD-Channel8']
+11-05 13:57:15 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 177:Replication complete
